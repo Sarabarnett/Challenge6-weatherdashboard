@@ -5,7 +5,7 @@ This application utilizes the OpenWeather One Call API to retrieve weather data 
 
 ## Deployed Application
 You can view the deployed application at the following link:
-
+https://sarabarnett.github.io/Challenge6-weatherdashboard/
 
 ## Contributors
 This challenge was coded by Sara Barnett.
