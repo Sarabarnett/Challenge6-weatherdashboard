@@ -1,0 +1,45 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+header {
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  background-image: linear-gradient(45deg, #2196F3, #311B92);
+  margin-bottom: 30px;
+}
+
+header h1 {
+  padding-top: 25px;
+  text-align: center;
+  color: white;
+  padding: 10px auto;
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+
+main {
+  padding: 0px 30px;
+}
+
+.searchBtn {
+  color: white;
+  align-items: center;
+  width: 75%;
+  margin: 10px;
+  background-color: #42A5F5;
+}
+
+br {
+  line-height: 3px;
+  color: black;
+}
