@@ -13,25 +13,25 @@
     <h1>Weather Dashboard</h1>
   </header>
 
-  <main>
-    <div class="row">
-      <div class="col-lg-3">
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-3">
         <h3>Search for a City</h3>
         <div class="form-inline form-group">
-          <input class="form-control" type="text" id="citySearch" />
+          <input id="city-name" name="city-name" class="form-control" type="text"  />
           <button class="btn searchBtn" id="submitSearch">Search</button>
         </div>
 
         <ul class="list-group cityHistory"></ul> 
       </div>
 
-      <div class="col-lg-9">
+      <div class="col-9 weatherDisplay">
         <div id="todayForecast" class="m-5"></div>
-        <div id="futureForecast" class="card-group m-5"></div>
+        <div id="futureForecast" class="container"></div>
       </div>
     </div>
     
-  </main>
+  </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="./assets/js/script.js"></script>
   

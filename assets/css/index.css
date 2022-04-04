@@ -31,15 +31,26 @@ main {
   padding: 0px 30px;
 }
 
+.col-lg-3 {
+  margin: 10px;
+}
+
+.col-lg-9 {
+  margin: 10px;
+}
+
 .searchBtn {
   color: white;
   align-items: center;
-  width: 75%;
-  margin: 10px;
+  width: 100%;
   background-color: #42A5F5;
+  margin: 10px 0;
 }
 
-br {
-  line-height: 3px;
-  color: black;
+.list-group-item {
+  background-color: rgb(167, 167, 255);
+  color: #000;
+  width: 100%;
+  margin: 5px 0;
 }
+
